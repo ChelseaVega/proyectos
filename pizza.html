@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+      body{
+        background-image: url(imag/pizzapizarra.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      h1{
+        color: aliceblue;
+        font-family:'Staatliches', cursiva; ;
+      }
+    .centrar{
+      text-align: center;
+    }
+    div{
+        color: aliceblue;
+        background-color:#901d4c ;
+       border-radius: 10px;
+     
+      }
+      .color{
+        background-color: beige;
+      }
+      .radio{
+        border-radius: 4px;
+        width: 80%;
+      }
+    </style>
+    <title>Pizza Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+
+  <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <div class="container text-center ">
+
+        <div class="row align-items-start ">
+     
+          <div class="col centrar">
+            <br><h1>REALIZA TU PEDIDO</h1>
+          </div>
+         
+        </div>
+        <div class="row lign-items-start">
+          <div class="col centrar">
+        <select class="form-select" aria-label="Default select example" id="tamaños" required place-holder="Tamaños de la pizza">
+          <option selected >Tamaños de pizza</option>
+          <option value="1" id="1">Pequeña</option>
+          <option value="2">Mediana</option>
+          <option value="3">Grande</option>
+        </select>
+      </div>
+    </div>
+    <div class="row lign-items-start">
+      <div class="col centrar radio">
+        <br> <br> <br>
+        <br>
+        <select name="pizza1" class="radio" id="pizza1">
+          <option selected>Ingredientes</option>
+          <option value="champiñones">Champiñones</option>
+        <!--  <option value="Jamon">Jamon</option>
+          <option value="aceitunas">Aceitunas</option>
+          <option value="anchoas">Anchoas</option>
+          <option value="salchichon">Salchichon</option>-->
+        </select>
+        <br> <br> <br>
+        <br> <br> 
+        
+      
+</div>
+<div class="col centrar radio">
+  <br> <br> <br>
+  <br>
+  <select name="pizza2" class="radio" id="pizza2">
+    <option selected>Ingredientes</option>
+ <!--   <option value="champiñones">Champiñones</option>-->
+    <option value="Jamon">Jamon</option>
+   <!--  <option value="aceitunas">Aceitunas</option>
+    <option value="anchoas">Anchoas</option>
+    <option value="salchichon">Salchichon</option>-->
+  </select>
+  <br> <br> <br>
+  <br> <br> 
+  
+</div>
+<div class="col centrar  ">
+  <br> <br> <br>
+  <br>
+  <select name="pizza3" class="radio" id="pizza3">
+    <option selected>Ingredientes</option>
+  <!--   <option value="champiñones">Champiñones</option>
+    <option value="Jamon">Jamon</option>-->
+    <option value="aceitunas">Aceitunas</option>
+ <!--   <option value="anchoas">Anchoas</option>
+    <option value="salchichon">Salchichon</option>-->
+  </select>
+  <br> <br> <br>
+  <br> <br> 
+  
+</div>
+<div class="col centrar  ">
+  <br> <br> <br>
+  <br>
+  <select name="pizza4" class="radio" id="pizza4">
+    <option selected>Ingredientes</option>
+   <!--  <option value="champiñones">Champiñones</option>
+    <option value="Jamon">Jamon</option>
+    <option value="aceitunas">Aceitunas</option>-->
+    <option value="anchoas">Anchoas</option>
+      <!--  <option value="salchichon">Salchichon</option>-->
+  </select>
+  <br> <br> <br>
+  <br> <br> 
+  
+</div>
+<div class="col centrar radio">
+  <br> <br> <br>
+  <br>
+  <select name="pizza5" class="radio" id="pizza5">
+    <option selected>Ingredientes</option>
+ <!--   <option value="champiñones">Champiñones</option>
+    <option value="Jamon">Jamon</option>
+    <option value="aceitunas">Aceitunas</option>
+    <option value="anchoas">Anchoas</option>-->
+    <option value="salchichon">Salchichon</option>
+  </select>
+  <br> <br> <br>
+  <br> <br> 
+  
+</div>
+<div>
+  <form>
+    <button type="button" class="btn btn-light" id="enviarpedido">Enviar pedido</button>
+  </form>
+</div>
+</div>
+<br>
+  </div>
+  <script src="consulta.js"></script>
+
+</body>
+
+</html>
+
+ 
